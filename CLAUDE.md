@@ -22,6 +22,11 @@
 
 https://github.com/tamago-code/realestate-app.git
 
+## デプロイ情報
+
+- 本番URL：https://realestate-app-pied-five.vercel.app/
+- Supabaseプロジェクト名：realestate-app
+
 ## Git運用ルール
 
 - コードを変更するたびに、変更内容をコミットして GitHub(`origin`)へプッシュする。このプロジェクトではユーザーの都度の指示を待たずに行ってよい(グローバルの「コミットは明示的な依頼時のみ」より優先する)。
