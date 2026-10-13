@@ -7,6 +7,7 @@
 - React + TypeScript + Vite
 - React Router(ルーティング)
 - Supabase(認証。メールアドレス+パスワード)
+- DB定義は `supabase/migrations/` のSQLで管理する。Supabase MCP に接続されているアカウントにはこのプロジェクトがないため、SQLはユーザーがダッシュボードの SQL Editor で実行する
 - 接続情報は `.env` の `VITE_SUPABASE_URL` / `VITE_SUPABASE_PUBLISHABLE_KEY` で管理する(雛形は `.env.example`)
 - コードのコメントは日本語で書く
 

@@ -176,3 +176,61 @@ button:disabled {
   font-size: 14px;
   color: var(--muted);
 }
+
+.create-section {
+  margin-bottom: 24px;
+}
+
+.create-section .property-card {
+  max-width: 480px;
+}
+
+.status-text {
+  color: var(--muted);
+}
+
+.card-actions,
+.form-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+button.secondary {
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+button.secondary:hover:not(:disabled) {
+  background: var(--bg);
+}
+
+button.danger {
+  background: var(--error);
+}
+
+button.danger:hover:not(:disabled) {
+  background: #b91c1c;
+}
+
+/* 物件の登録・編集フォーム */
+.property-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.property-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+}
+
+.property-form input {
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 15px;
+}
