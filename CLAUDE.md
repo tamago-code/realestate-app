@@ -4,11 +4,18 @@
 
 ## 技術スタック
 
-- 未定(決まり次第ここに記載する)
+- React + TypeScript + Vite
+- React Router(ルーティング)
+- Supabase(認証。メールアドレス+パスワード)
+- 接続情報は `.env` の `VITE_SUPABASE_URL` / `VITE_SUPABASE_PUBLISHABLE_KEY` で管理する(雛形は `.env.example`)
+- コードのコメントは日本語で書く
 
 ## コマンド
 
-- 未定(セットアップ・起動・テスト・型チェックのコマンドを決まり次第ここに記載する)
+- `npm install`:依存パッケージのインストール
+- `npm run dev`:開発サーバー起動
+- `npm run build`:型チェック+本番ビルド
+- `npm run lint`:Lint(oxlint)
 
 ## GitHubリポジトリ
 
